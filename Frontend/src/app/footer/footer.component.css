@@ -1,0 +1,49 @@
+.footer{
+    background-color: #262626;
+    color: rgba(255, 255, 255, 1);
+    font-family:  Montserrat;
+    font-size: 12px;
+    line-height: 1.85;
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;
+    padding-top: 6%;
+    padding-bottom: 4%;
+}
+h5{
+    border-bottom: 3px solid #99ca3c;
+    font-weight: 600;
+    width: 40px;
+}
+.footer-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+.social-media{
+
+}
+span{
+    display: block; 
+}
+.icons{
+    margin-top: 30px;
+    /* display: flex; */
+    /* justify-content: space-around; */
+    /* flex-direction: row; */
+}
+.icons i{
+    /* margin: 20px; */
+    font-size: 26px;
+}
+.icons-items{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    
+}
+.icons-items i{
+    margin-right: 10px;
+}
