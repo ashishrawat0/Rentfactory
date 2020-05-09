@@ -1,0 +1,163 @@
+header{
+    /* position: fixed; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: 0.6s;
+    padding: 40px 100px;
+    z-index: 10000000;
+    box-shadow: 0px 2px 30px -12px rgba(0,0,0,0.52)
+}
+header.sticky{
+    padding: 5px 100px;
+    background: #fff;
+}
+.sub-header{
+    padding: 0px 0px;
+    background: #ff5064;
+    position: relative;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 100px;
+    transition: 0.6s;
+    font-size: 0.80rem !important;
+    height: 22px !important;
+    
+}
+.sub-header ul{
+    justify-content: space-between;
+}
+.sub-header ul li{
+    /* justify-content: space-around; */
+    justify-items: auto;
+    justify-self: auto;
+}
+.sub-header 
+{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+header .logo{
+    position: relative;
+    font-weight: 700;
+    color: #fff;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: 0.6s;
+}
+header ul{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header ul li,.sub-header{
+    position: relative;
+    list-style: none;
+}
+header ul li a{
+    position: relative;
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 2px;
+    font-weight: 500px;
+    transition: 0.6s;
+}
+/* .banner{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+} */
+header.sticky .logo,
+header.sticky ul li a{
+    color: #000;
+}
+ul{
+    margin-top: 15px;
+}
+.input-icons i { 
+    /* position: absolute;  */
+} 
+  
+.input-icons { 
+    /* width: 100%;  */
+    /* margin-bottom: 10px;  */
+} 
+
+.icon { 
+    /* padding: 10px; 
+    margin-top: 10px;
+    text-align: right;
+    align-self: auto; */
+
+    /* min-width: 40px;  */
+} 
+  
+.input-field { 
+    /* width: 100%;  */
+    /* padding: 10px;  */
+    /* text-align: center */
+    /* padding-top: 0.75rem; */
+    margin-top: 10px;
+    outline: none;
+    padding-bottom: 0.75rem;
+    background-color: #f1f3f5;
+    border-radius: 9999px;
+    border-width: .125rem;
+    border-style: solid;
+    color: #495057;
+}
+.inputBox{
+    position: relative;
+    margin-bottom: 40px;
+}
+.inputBox:last-child{
+    margin-bottom: 0px;
+}
+.inputBox input{
+    position: relative;
+    background: transparent;
+    outline: none;
+    border: none;
+    width: 100%;
+    color: black;
+    padding-bottom: 2px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 300;
+    border-bottom: 2px solid #ff5064;
+    resize: none;
+}
+
+.inputBox span{
+    position: absolute;
+    left: 0;
+    font-size: 14px;
+    font-weight: 300;
+    display: inline-block;
+    pointer-events: none;
+    letter-spacing: 1px;
+    color: #ff5064;
+    transition: all 0.2s;
+}
+.inputBox input:focus ~ span,
+.inputBox input:valid ~span{
+    transform: translateX(-24px);
+    color: #ff5064;
+    font-size: 14px;
+}
+.inputBox input:focus,
+.inputBox input:valid
+{
+    border-bottom-color: #ff5064;
+}
