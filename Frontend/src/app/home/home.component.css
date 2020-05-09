@@ -114,7 +114,7 @@
 span {
   display: block;
 }
-.quality {
+.business {
   font-family: Montserrat;
   color: white;
   /* background-color: #33414f */
@@ -128,38 +128,38 @@ span {
 
 
 }
-.quality-content {
+.business-content {
   display: flex;
   flex-direction: row;
   margin-top: 20px;
 
 }
-.quality h5 {
+.business h5 {
   /* text-align: center; */
   font-size: 32px;
 }
-.quality-content h5 {
+.business-content h5 {
   font-weight: 600;
 }
-.quality-para{
+.business-para{
     flex: 4;
 }
-.quality-button{
+.business-button{
     flex: 1;
 }
 
-.quality-para p{
+.business-para p{
     margin-top: 20px;
     font-size: 18px;
 }
-.quality-button button{
+.business-button button{
     background: transparent;
     border-radius: 20px;
     padding: 10px 14px;
     border: 2px solid white;
     color: white;
 }
-.quality-button button:hover{
+.business-button button:hover{
     color: rgb(0, 0, 0);
     background-color: white;
     transition-duration: 0.5s;
