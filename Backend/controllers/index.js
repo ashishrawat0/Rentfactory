@@ -1,0 +1,1 @@
+exports.sampleController = require('./sampleController')

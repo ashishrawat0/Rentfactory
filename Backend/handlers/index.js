@@ -1,0 +1,1 @@
+exports.sampleHandler = require('./sampleHandler')
