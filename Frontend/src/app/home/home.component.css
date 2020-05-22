@@ -58,7 +58,7 @@
   /* pos */
   flex-direction: row;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255,0.95);
 }
 .label {
   flex: 1;
@@ -85,6 +85,7 @@
 .trending {
   background-color: #33414f;
   /* background-color:  */
+  /* background: url('../../assets/ocean.jpg'); */
   /* border-top-right-radius: 100px; */
   width: 100%;
   /* margin-top: 2%; */
@@ -198,6 +199,7 @@ span {
 .business-button button{
     background: transparent;
     border-radius: 20px;
+    transition-duration: 0.5s;
     padding: 10px 14px;
     border: 2px solid white;
     color: white;
